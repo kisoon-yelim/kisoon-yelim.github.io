@@ -143,14 +143,14 @@ p.invitation  {
 
 img.telephone {
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 
 img.kakao {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     display:inline-block;
     border:0.1px;
 }
