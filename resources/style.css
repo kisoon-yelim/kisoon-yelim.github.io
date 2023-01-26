@@ -1,0 +1,292 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+
+
+
+@font-face {
+font-family: 'MomsLetterM';
+src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterM.ttf');
+font-weight: normal;
+font-style: normal;	
+}
+
+
+
+@font-face {
+font-family: 'MomsLetterB';
+src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterB.ttf');
+font-weight: normal;
+font-style: normal;	
+}
+
+@font-face {
+font-family: 'MomsLetterL';
+src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterL.ttf');
+font-weight: normal;
+font-style: normal;	
+}
+
+
+
+
+
+body { 
+    margin: 0 auto;
+    width: 100%;
+    font-size: 14px;
+    max-width: 666px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FFF; 
+    font-family: 'MomsLetterL';
+    line-height: 1.5;
+    text: #000;
+    }
+
+@media (max-width: 600px)
+	
+
+.fist-page,
+.second-page {
+    margin-left: auto;
+    margin-right: auto;
+    height: 140px;
+    }
+
+
+
+p.Title,
+p.sub-Title {
+   margin: auto;
+   font-size: 16px;
+   font-family: 'MomsLetterB';
+   text-align: center;
+   letter-spacing: 3px;
+   }
+
+
+
+
+p.Date,
+p.Main-name {
+   margin: auto;
+   font-size: 15px;
+   font-family: 'MomsLetterB';
+   text-align: center; 
+   letter-spacing: 3px;
+   vertical-align:middle;
+   }
+
+
+
+
+.Main-photo {
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+   background-position: center;
+   background-size: cover;
+   }
+
+
+
+
+p.name {
+   margin: auto;
+   font-size: 15px;
+   font-family: 'MomsLetterB';
+   text-align: center; 
+   vertical-align:middle;
+   letter-spacing: 3px;
+ }
+
+
+
+p.contact {
+    font-size: 15px;
+    font-family: 'MomsLetterL';
+    line-height: 10px;
+    text-align: center; 
+    align: middle;
+}
+
+
+
+p.pay,
+p.pay2 {
+   margin: auto;
+   font-size: 15px;
+   font-family: 'MomsLetterL';
+   text-align: center; 
+   vertical-align:middle;
+   letter-spacing: 3px;
+ }
+
+
+
+
+p.invitation  {
+   margin: auto;
+   font-size: 14px;
+   font-weight: 500;
+   text-align: center; 
+   letter-spacing: 3px;
+   font-family: 'MomsLetterL';
+}	
+
+
+
+
+
+img.telephone {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+
+img.kakao {
+    width: 40px;
+    height: 40px;
+    display:inline-block;
+    border:0.1px;
+}
+
+
+
+  < !-- 갤러리 영역 -- >
+* {
+  box-sizing: border-box;
+}
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  max-width: 100%;
+  position: relative; 
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor,
+.cursor2 {
+  cursor: pointer;
+}
+
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  border: 30px;
+  padding: 0px;
+  font-weight: normal;
+  font-size: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: none;
+}
+
+
+
+/* Container*/
+.caption-container {
+  text-align: center;
+  padding: 10px;
+  display: hidden;
+}
+
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* nine columns side by side */
+.column {
+  float: left;
+  width: 14.2%;
+  max-width: 100%;
+}
+
+
+
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+  < !-- 갤러리 영역 -- >
+
+
+
+
+
+.button {
+    display: inline-block;
+    padding: 2px;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:middle;
+    background-color: #F2F2F2;
+    text:#fff;
+    border-radius:3px;
+    border:none;
+}
+
+
+.buttoncopy {
+    display: inline-block;
+    width: 55px;
+    height: 25px;
+    padding: 2px;
+    cursor:pointer;
+    text-align:center;
+    vertical-align:middle;
+}
+
+
+
+
+img.kakaonavi {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 0.1px solid;
+    border-color: #F2F2F2;
+}
+
+
+img.tmap {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 0.1px solid;
+    border-color: #F2F2F2;
+}
+
+img.kakopay {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 0.1px solid;
+    border-color: #F2F2F2;
+}
