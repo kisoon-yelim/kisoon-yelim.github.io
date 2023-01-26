@@ -20,7 +20,7 @@
       <!-- css -->
       <link rel="stylesheet" href="resources/font.css">
       <link rel="stylesheet" href="resources/style.css">
-   
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
  
 
@@ -145,31 +145,30 @@
 	 
       <!-- gallery -->
 <p class="sub-Title"><br>앨범이름은 뭘루 할까요?</p><br>	  
-  <div class="container">
-  <div class="mySlides">
+  <div class="wiper-container">
+  <div class="swiper-wrapper">
+  <div class="swiper-slide">
     <img src="photo/1.jpg" style="width:100%">
   </div>
-  <div class="mySlides">
+   <div class="swiper-slide">
     <img src="photo/2.jpg" style="width:100%">
   </div>
-  <div class="mySlides">
+   <div class="swiper-slide">
     <img src="photo/3.jpg" style="width:100%">
   </div>
-  <div class="mySlides">
+   <div class="swiper-slide">
     <img src="photo/4.jpg" style="width:100%">
   </div>
-  <div class="mySlides">
+   <div class="swiper-slide">
     <img src="photo/5.jpg" style="width:100%">
   </div>
-  <div class="mySlides">
+   <div class="swiper-slide">
     <img src="photo/6.jpg" style="width:100%">
   </div>
-    <div class="mySlides">
+     <div class="swiper-slide">
     <img src="photo/7.jpg" style="width:100%">
   </div>
-		<br>
-  <a class="prev" onclick="plusSlides(-1)">❮</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a class="next" onclick="plusSlides(1)">❯</a>
+<br>
 
   <div class="caption-container">  </div>
  
@@ -241,42 +240,12 @@
    
  <!------------ 스크립트 영역 ------------ 	  
  <!-- 갤러리 -->		     
-<script>
-	
-let slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-	
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("mySlides");
-  let dots = document.getElementsByClassName("demo");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> 
  <!-- 갤러리 -->
 	
 	
 	
 		
-	
-	
 	
 	
 	
