@@ -311,33 +311,22 @@ function showSlides(n) {
 <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 <script src="./wp-includes/js/jquery/jquery-1.9.1.js"></script>
 <script>
-var map = new naver.maps.Map('mapcanvas', {
-    center: new naver.maps.LatLng(37.511742, 126.9948247),	
+var map = new naver.maps.Map('map', {
+    center: new naver.maps.LatLng(37.7912297, 28.9209403),
     draggable: false,
     zoom: 16
 });
-	
-var floatingisland = new naver.maps.LatLng(37.511742, 126.9948247);
 
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.7912297, 28.9209403),
+    map: map
+});
 
-var markerOptions = {
-    position: floatingisland,
-    map: map,
-	title: '세인트존스호텔',	
-    icon: {
-        content: '<img src="./resources/mapmarkers.png" style="width:25px;height:34px;">',
-        size: new naver.maps.Size(25, 34),
-        origin: new naver.maps.Point(0, 0),
-        anchor: new naver.maps.Point(12, 34)
-    }
-};
-
-var marker = new naver.maps.Marker(markerOptions);	
 </script>	   
   <!-- 네이버맵 -->	
 
 
-
+	
 
 
 
