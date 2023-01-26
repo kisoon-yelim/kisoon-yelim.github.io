@@ -9,23 +9,23 @@
 
 @font-face {
 font-family: 'MomsLetterM';
-src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterM.ttf');
+src: url('https://kisoon-yelim.github.io/resources/font/MomsLetterM.ttf');
 font-weight: normal;
 font-style: normal;	
 }
-
 
 
 @font-face {
 font-family: 'MomsLetterB';
-src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterB.ttf');
+src: url('https://kisoon-yelim.github.io/resources/font/MomsLetterB.ttf');
 font-weight: normal;
 font-style: normal;	
 }
 
+
 @font-face {
 font-family: 'MomsLetterL';
-src: url('https://kisoon-yelim.github.io/ksyl.github.io/resources/font/MomsLetterL.ttf');
+src: url('https://kisoon-yelim.github.io/resources/font/MomsLetterL.ttf');
 font-weight: normal;
 font-style: normal;	
 }
